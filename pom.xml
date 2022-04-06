@@ -8,6 +8,15 @@
     <artifactId>maven_actions</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -16,12 +25,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <build>
         <plugins>
@@ -39,7 +42,7 @@
                 <version>0.8.7</version>
                 <executions>
                     <execution>
-                        <id>prepare-agent-888987987</id>
+                        <id>prepare-agent-8889879</id>
                         <!--                        <phase>initialize</phase>-->
                         <goals>
                             <goal>prepare-agent</goal>
