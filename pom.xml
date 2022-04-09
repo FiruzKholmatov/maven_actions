@@ -16,7 +16,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -52,6 +51,8 @@
                         <id>888-report-888</id>
                          <!--                       <phase>verify</phase>-->
                         <goals>
+                            <goal>report</goal>
+
                             <goal>check</goal>
                         </goals>
                         <configuration>
